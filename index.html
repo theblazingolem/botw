@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Battle of the Week</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <p class="bold uline">Battle of the Week</p>
+    <br />
+    <span class="subtext ping">@Battle of the Week</span>
+    <br />
+    <br />
+    <input class="bold" id="d1Inp" type="text" placeholder="first dino" />
+    <span class="bold"> vs </span>
+    <input class="bold" id="d2Inp" type="text" placeholder="second dino" />
+    <p id="d1" class="bold">Namer</p>
+    <ul>
+      <li>
+        <label for="d1s">Size: </label
+        ><input placeholder="height in m" id="d1h" type="text" />
+        <span>x</span>
+        <input placeholder="length in m" id="d1l" type="text" />
+      </li>
+      <li>
+        <label for="d1w">Weight: </label
+        ><input id="d1w" placeholder="in tons/kg/g" type="text" />
+      </li>
+      <li>
+        <label for="d1a">Ability: </label
+        ><input
+          placeholder="spl traits that helped in hunting/defending"
+          id="d1a"
+          type="text"
+        />
+      </li>
+    </ul>
+    <p id="d2" class="bold">Namer</p>
+    <ul>
+      <li>
+        <label for="d1s">Size: </label
+        ><input placeholder="height in m" id="d2h" type="text" />
+        <span>x</span>
+        <input placeholder="length in m" id="d2l" type="text" />
+      </li>
+      <li>
+        <label for="d2w">Weight: </label
+        ><input placeholder="in tons/kg/g" id="d2w" type="text" />
+      </li>
+      <li>
+        <label for="d2a">Ability: </label
+        ><input
+          placeholder="spl traits that helped in hunting/defending"
+          id="d2a"
+          type="text"
+        />
+      </li>
+    </ul>
+    <button id="cpyBtn">Copy Formatted Text</button>
+    <script src="script.js" type="module"></script>
+  </body>
+</html>

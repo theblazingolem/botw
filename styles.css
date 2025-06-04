@@ -1,0 +1,95 @@
+@font-face {
+  font-family: ggsans;
+  src: url("ggsans.ttf");
+}
+@font-face {
+  font-family: ggsansMedium;
+  src: url("ggsansMedium.ttf");
+}
+@font-face {
+  font-family: ggsansBold;
+  src: url("ggsansBold.ttf");
+}
+
+body {
+  background-color: #131416;
+  font-family: ggsans;
+  color: white;
+}
+
+.ping {
+  display: inline;
+  background-color: #1b1d41;
+  padding: 1px 2px;
+  border-radius: 3px;
+  color: #93a7fd;
+  font-family: ggsansMedium;
+}
+
+.subtext {
+  font-size: 0.8rem;
+}
+
+input {
+  background-color: #38393b;
+  border: 1px solid rgba(255, 255, 255, 0.191);
+  border-radius: 4px;
+  height: 20px;
+  display: inline;
+  color: white;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.bold {
+  font-family: ggsansBold;
+  margin-bottom: 2px;
+}
+
+.uline {
+  border-bottom: 1px solid;
+  display: inline-block;
+}
+
+ul {
+  /* border: 1px white solid; */
+  padding-left: 15px;
+  margin: 0px;
+}
+li {
+  margin: 5px auto;
+}
+
+button {
+  background-color: #586aea;
+  color: white;
+  font-family: ggsansBold;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+#d1h,
+#d2h,
+#d1l,
+#d2l {
+  width: 65px;
+}
+
+#d1w,
+#d2w {
+  width: 70px;
+}
+
+#d1Inp {
+  width: 55px;
+}
+#d2Inp {
+  width: 70px;
+}
+#d1a,
+#d2a {
+  width: 245px;
+}
