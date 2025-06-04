@@ -27,7 +27,13 @@ abilities: ${d2a.value}`;
   navigator.clipboard.writeText(message);
   cpy.innerText = "Copied to Clipboard";
 });
+d1Inp.addEventListener("input", () => {
+  d1.textContent = d1Inp.value;
+});
 
+d2Inp.addEventListener("input", () => {
+  d2.textContent = d2Inp.value;
+});
 /*
   {
   name:'',
