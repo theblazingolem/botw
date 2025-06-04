@@ -17,14 +17,14 @@ cpy.addEventListener("click", () => {
 -# <@&1008706265200984144>
 ## ${d1Inp.value} vs ${d2Inp.value}
 **${d1Inp.value}**
-- size: ${d1h.value} x ${d1l.value}
-- mass: ${d1w.value}
-- abilities: ${d1a.value}
+- size: ${d1h.value || 'no value provided'} x ${d1l.value || 'no value provided'}
+- mass: ${d1w.value || 'no value provided'}
+- abilities: ${d1a.value || 'no value provided'}
 
 **${d2Inp.value}**
-- size: ${d2h.value} x ${d2l.value}
-- mass: ${d2w.value}
-- abilities: ${d2a.value}`;
+- size: ${d2h.value || 'no value provided'} x ${d2l.value || 'no value provided'}
+- mass: ${d2w.value || 'no value provided'}
+- abilities: ${d2a.value || 'no value provided'}`;
   navigator.clipboard.writeText(message);
   cpy.innerText = "Copied to Clipboard";
 });
